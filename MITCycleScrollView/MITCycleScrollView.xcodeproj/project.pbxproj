@@ -14,6 +14,7 @@
 		E40A523A1DCC67BB00A281C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E40A52381DCC67BB00A281C4 /* LaunchScreen.storyboard */; };
 		E40A52451DCC67BB00A281C4 /* MITCycleScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40A52441DCC67BB00A281C4 /* MITCycleScrollViewTests.swift */; };
 		E40A52501DCC67BB00A281C4 /* MITCycleScrollViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40A524F1DCC67BB00A281C4 /* MITCycleScrollViewUITests.swift */; };
+		E40A525E1DCC688200A281C4 /* MITSycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40A525D1DCC688200A281C4 /* MITSycleScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E40A524B1DCC67BB00A281C4 /* MITCycleScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MITCycleScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E40A524F1DCC67BB00A281C4 /* MITCycleScrollViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MITCycleScrollViewUITests.swift; sourceTree = "<group>"; };
 		E40A52511DCC67BB00A281C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E40A525D1DCC688200A281C4 /* MITSycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MITSycleScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		E40A522E1DCC67BB00A281C4 /* MITCycleScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				E40A525D1DCC688200A281C4 /* MITSycleScrollView.swift */,
 				E40A522F1DCC67BB00A281C4 /* AppDelegate.swift */,
 				E40A52311DCC67BB00A281C4 /* ViewController.swift */,
 				E40A52331DCC67BB00A281C4 /* Main.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				E40A52321DCC67BB00A281C4 /* ViewController.swift in Sources */,
 				E40A52301DCC67BB00A281C4 /* AppDelegate.swift in Sources */,
+				E40A525E1DCC688200A281C4 /* MITSycleScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
