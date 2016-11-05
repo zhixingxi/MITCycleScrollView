@@ -14,8 +14,9 @@ class ViewController: UIViewController, MITSycleScrollViewDelegate {
         super.viewDidLoad()
         let mitView = MITSycleScrollView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.width / 2))
         mitView.currentPageColor = UIColor.red
-        mitView.timeSeconds = 2
         mitView.pageColor = UIColor.white
+        mitView.placeHolderImage = #imageLiteral(resourceName: "zhanwei")
+        mitView.timeSeconds = 2
         mitView.delegate = self
         view.addSubview(mitView)
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1, execute: {

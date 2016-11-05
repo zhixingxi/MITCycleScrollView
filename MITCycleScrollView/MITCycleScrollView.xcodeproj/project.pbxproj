@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD4BF557B5CC3975C8820C0B /* Pods_MITCycleScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B39ED43747F263D74981C0A /* Pods_MITCycleScrollView.framework */; };
 		E40A52301DCC67BB00A281C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40A522F1DCC67BB00A281C4 /* AppDelegate.swift */; };
 		E40A52321DCC67BB00A281C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40A52311DCC67BB00A281C4 /* ViewController.swift */; };
 		E40A52351DCC67BB00A281C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E40A52331DCC67BB00A281C4 /* Main.storyboard */; };
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		53859F2FC9FB186CD46FC632 /* Pods-MITCycleScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MITCycleScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-MITCycleScrollView/Pods-MITCycleScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		6B39ED43747F263D74981C0A /* Pods_MITCycleScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MITCycleScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE710E9E9A796A00752736E3 /* Pods-MITCycleScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MITCycleScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MITCycleScrollView/Pods-MITCycleScrollView.debug.xcconfig"; sourceTree = "<group>"; };
 		E40A522C1DCC67BB00A281C4 /* MITCycleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MITCycleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E40A522F1DCC67BB00A281C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E40A52311DCC67BB00A281C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD4BF557B5CC3975C8820C0B /* Pods_MITCycleScrollView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13F59807605D77D257E39B92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE710E9E9A796A00752736E3 /* Pods-MITCycleScrollView.debug.xcconfig */,
+				53859F2FC9FB186CD46FC632 /* Pods-MITCycleScrollView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B9312DCD25BBCAE31F713F42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B39ED43747F263D74981C0A /* Pods_MITCycleScrollView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E40A52231DCC67BB00A281C4 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +105,8 @@
 				E40A52431DCC67BB00A281C4 /* MITCycleScrollViewTests */,
 				E40A524E1DCC67BB00A281C4 /* MITCycleScrollViewUITests */,
 				E40A522D1DCC67BB00A281C4 /* Products */,
+				13F59807605D77D257E39B92 /* Pods */,
+				B9312DCD25BBCAE31F713F42 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E40A52541DCC67BB00A281C4 /* Build configuration list for PBXNativeTarget "MITCycleScrollView" */;
 			buildPhases = (
+				46DAD8C348BCFADCD03007C5 /* [CP] Check Pods Manifest.lock */,
 				E40A52281DCC67BB00A281C4 /* Sources */,
 				E40A52291DCC67BB00A281C4 /* Frameworks */,
 				E40A522A1DCC67BB00A281C4 /* Resources */,
+				33C426580810E1F79C23F7A7 /* [CP] Embed Pods Frameworks */,
+				92982181906DC89C3454C38F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +283,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33C426580810E1F79C23F7A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MITCycleScrollView/Pods-MITCycleScrollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46DAD8C348BCFADCD03007C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		92982181906DC89C3454C38F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MITCycleScrollView/Pods-MITCycleScrollView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E40A52281DCC67BB00A281C4 /* Sources */ = {
@@ -412,6 +487,7 @@
 		};
 		E40A52551DCC67BB00A281C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE710E9E9A796A00752736E3 /* Pods-MITCycleScrollView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MITCycleScrollView/Info.plist;
@@ -424,6 +500,7 @@
 		};
 		E40A52561DCC67BB00A281C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53859F2FC9FB186CD46FC632 /* Pods-MITCycleScrollView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MITCycleScrollView/Info.plist;
@@ -507,6 +584,7 @@
 				E40A52561DCC67BB00A281C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E40A52571DCC67BB00A281C4 /* Build configuration list for PBXNativeTarget "MITCycleScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +593,7 @@
 				E40A52591DCC67BB00A281C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E40A525A1DCC67BB00A281C4 /* Build configuration list for PBXNativeTarget "MITCycleScrollViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +602,7 @@
 				E40A525C1DCC67BB00A281C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
