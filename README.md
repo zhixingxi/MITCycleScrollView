@@ -12,4 +12,4 @@
 >         mitView.pageColor = UIColor.white
 >         mitView.delegate = self
 >         view.addSubview(mitView)
->         mitView.imageArray = ["http://bangimg1.dahe.cn/forum/201511/05/073002qffz5t9twjjbaz6m.jpg","http://tupian.enterdesk.com/2015/gha/09/1502/01.jpg","http://img.ithome.com/newsuploadfiles/2016/3/20160317_080446_325.jpg","http://bangimg1.dahe.cn/forum/201511/05/073002qffz5t9twjjbaz6m.jpg","http://tupian.enterdesk.com/2015/gha/09/1502/01.jpg","http://img.ithome.com/newsuploadfiles/2016/3/20160317_080446_325.jpg"]
+>         mitView.imageArray = [""]
